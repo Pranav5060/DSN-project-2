@@ -1,0 +1,58 @@
+<?php include 'p1.php'?>
+
+<!DOCTYPE html>
+<head>
+    <title>
+        sign in page
+    </title>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type="text/css" href="p1.css">
+    <meta name="viewport" content="width=device-width", initial-scale = "1.0">
+</head>
+<body>
+
+    <div class="S">
+        <div class="A">
+            <div class="imgA">
+                <img src="https://i.pinimg.com/originals/3b/d6/36/3bd636710de01d3256732078071c22c4.gif" >
+            </div>
+
+            <div class="formA">
+                <p class = "h"> SIGN IN </p>
+                        <form action="/action_page.php">
+                            <!---- <label for="email ">Email</label> -->
+                            <input type="email" placeholder="Email" required>
+                            <!-- <label for="password">Password</label> -->
+                            <input type ="password" placeholder="Password" required>
+                            <input type="submit" value="SIGN IN "  >    
+                        </form>
+                        <p>Don't have an account ? <a href= "#" onclick="form()" >Sign up </a></p>
+            </div>
+
+        </div>
+
+        <div class="B">
+            
+
+            <div class="formB">
+                <p class = "h"> SIGN UP</p>
+                <form action="/action_page.php">
+                    <!---- <label for="email ">Email</label> -->
+                    <input type="name" placeholder="Full Name" required >
+                    <input type="email" placeholder="Email" required>
+                    <!-- <label for="password">Password</label> -->
+                    <input type ="password" placeholder="Password" required>
+                    <!--<input type="cpassword" placeholder="Confirm Password" required>-->
+                    <input type="submit" value="SIGN UP " >
+                    <p>Already have an account ? <a href="#" onclick="form()" >Sign in </a></p>
+                </form>
+            </div>
+            <div class="imgB">
+                <img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/394fda6b242f7f92d5994032dd52abb6/72b96263b7820864bba1eae7_rw_1920.gif?h=0765da6f74d1cf745336035a0d20698d" >
+            </div>
+
+        </div>
+    </div>    
+    </body>
+    <script src="show.js"></script>
+    </html>
